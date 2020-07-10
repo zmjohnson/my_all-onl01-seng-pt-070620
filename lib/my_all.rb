@@ -10,4 +10,9 @@ def my_all?(collection)
   end
 
 binding.pry
+  if block_return_values.include?(false)
+    false
+  else
+    true
+  end
 end
